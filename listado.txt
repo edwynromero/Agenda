@@ -36,6 +36,5 @@ Realizar un curso en android, obligatorio realizar un curso de java para poder a
 Bajar mas audiolibros y montarlos en mega.
 Buscar frameworks en js y que es el vue.js.
 Hacer cursos de windows server desde el 2003 hasta el windows server 2016.
-
-
-
+Hacer un sistema con carrito de compra.
+Hacer un sistema que retire dinero.
