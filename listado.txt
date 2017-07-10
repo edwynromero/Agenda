@@ -31,6 +31,8 @@ Guardar el curso de javascript.
 Bajar varios sistemas para seguir practicando.
 Bajar la plantilla adminlite para laravel.
 Bajar otras plantillas para la parte de frontend.
+Realizar un curso en android, obligatorio realizar un curso de java para poder andar al dia con eso.
+Bajar mas audiolibros y montarlos en mega.
 
 
 
