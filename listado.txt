@@ -26,6 +26,11 @@ Como instalar linux en la tablet.
 Como instalar bactrack en la pc.
 Hacerle una revision a la empresa he implementar las diferentes politicas por medio de acls.
 Implementar todo lo que tiene que ver con como realizar una vpn.
+Implementar la nueva tecnica para hacer los cursos, verlos y hacer anotaciones luego hacerlo.
+Guardar el curso de javascript.
+Bajar varios sistemas para seguir practicando.
+Bajar la plantilla adminlite para laravel.
+Bajar otras plantillas para la parte de frontend.
 
 
 
