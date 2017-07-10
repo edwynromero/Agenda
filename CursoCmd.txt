@@ -3,7 +3,13 @@ comandos cmd
 Enlaces de referencia:
 http://www.abrirllave.com/cmd/crear-archivos.php
 
+https://norfipc.com/inf/comandos-consola-windows-7.html
 
+https://elandroidefeliz.com/comandos-cmd-comandos-dos-listado/
+
+https://www.taringa.net/posts/info/17234892/Lista-de-Comandos-CMD-Windows-7.html
+
+https://www.taringa.net/posts/info/2415223/Lista-de-comando-CMD-o-MS-DOS.html
 
 md nombre de la carpeta: crear carpeta
 
@@ -11,5 +17,8 @@ md nombre de la carpeta: crear carpeta
 cd.. va hacia atras en el directorio: moverse entre directorios
 
 COPY CON archivo1.txt: para crear un archivo y editarlo en el cmd.
+
+
+
 
 
