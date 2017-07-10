@@ -1,0 +1,15 @@
+comandos cmd
+
+Enlaces de referencia:
+http://www.abrirllave.com/cmd/crear-archivos.php
+
+
+
+md nombre de la carpeta: crear carpeta
+
+
+cd.. va hacia atras en el directorio: moverse entre directorios
+
+COPY CON archivo1.txt: para crear un archivo y editarlo en el cmd.
+
+
