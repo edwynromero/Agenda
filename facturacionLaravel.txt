@@ -1,4 +1,14 @@
 video1
+
+como se crea un proyecto laravel?
+entrar al cmd y colocar lararavel new nombre del proyecto
+
+como se instala
+
+
+
+
+
 video2
 video3
 video4
