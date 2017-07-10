@@ -15,3 +15,18 @@ Realizar un sistema solo con javascript.
 Bajar la tabla de direcciones de red.
 Bajar todo lo que sea pesado para mega.
 Guardar el sistema de servimil en el github.
+Bajar las paginas para estudiar 
+Hacer las carpetas de cisco
+Bajar el libro de las reglas de ortografia de oro.
+Bajar modelos de los curriculos.
+Hacer cursos web con certificados.
+Ingresar a coursera.
+Hacer ejercicios de mecanografia.
+Como instalar linux en la tablet.
+Como instalar bactrack en la pc.
+Hacerle una revision a la empresa he implementar las diferentes politicas por medio de acls.
+Implementar todo lo que tiene que ver con como realizar una vpn.
+
+
+
+
