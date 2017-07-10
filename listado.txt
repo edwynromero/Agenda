@@ -12,6 +12,6 @@ Bajar las paginas de los cursos de libros web y los de .com.ar
 Subir curriculum.
 Arreglar los sistemas de base de datos.
 Realizar un sistema solo con javascript.
-
-
-
+Bajar la tabla de direcciones de red.
+Bajar todo lo que sea pesado para mega.
+Guardar el sistema de servimil en el github.
