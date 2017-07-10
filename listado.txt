@@ -1,3 +1,4 @@
+
 Hacer el curso de comandos de windows.
 Hacer el curso de comandos de linux
 Hacer el curso de comandos de android
@@ -34,6 +35,7 @@ Bajar otras plantillas para la parte de frontend.
 Realizar un curso en android, obligatorio realizar un curso de java para poder andar al dia con eso.
 Bajar mas audiolibros y montarlos en mega.
 Buscar frameworks en js y que es el vue.js.
+Hacer cursos de windows server desde el 2003 hasta el windows server 2016.
 
 
 
