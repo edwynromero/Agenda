@@ -1,14 +1,121 @@
 video1
 
+como se crea un proyecto laravel?
+entrar al cmd y colocar lararavel new nombre del proyecto
+
+como se instala la herramienta de autenticacion?
+php artisan make:auth //este agrega bootstrap al proyecto y lo demas, agrega un par de vistas.
+
+se crea la base de datos
+
+Luego en el archivo .env
+se coloca el nombre de la base de datos, el usuario y la clave.
+
+Asi se ingresa al sistema
+localhost:8000
+
+
+como se corren las migraciones?
+con el comando php artisan migrate
+
+luego el comando php artisan make:migration initalization
+
+
+
+luego abrir la carpeta migrations y el archivo
+initalization.php
+
+crear las tablas en el metodo up()
+revisar esto en la pagina de laravel(migration)
+
+luego de terminar las tablas en este metodo ejecutar el comando php artisan migrate
+listo
 
 
 
 
 
 video2
+crear el primer controlador
+php artisan make:controller InvoiceController
+Ingresar a este archivo y escribir la primera ruta:
+public function index()
+{
+ return view('invoice.index');
+
+}
+
+crear una carpeta llamada invoice en las vistas en el resource.
+creamos el index.blade.php, haciendo copia del archivo login.blade
+
+
+luego nos vamos a app/http/routes.php
+colocar la ruta del invoice:
+
+Route::get('invoice','InvoiceController@index');
+ya creamos una ruta
+
+ahora modificamos la vista como nosotros queramos
+esto lo saco del archivo para no complicarme. indagar para ver como se hacen otras cosas que no puedo abarcar aqui tambien.
+
+
+luego vamos al InvoiceController
+creamos el metodo:
+
+public function add(invoice)
+{
+return view('invoice.add');
+}
+
+luego creamos la ruta a esta vista.
+Route::get('/invoice/add','InvoiceController@add');
+
+Luego creamos el archivo add.blade.php
+escribir el codigo del archivo aqui.
+
+Ahora vamos a la consola y entramos a la carpeta public y instalamos bower, con el comando npm install bower -g buscar no esta completo, luego agregar las dependencias bower install riot,
+
+"Revisar las guias de como trabajar con el bower"
+
+se creo una carpeta llamada bower_components, agregarla al layouts, en el archivo app.blade.php
+en la parte donde se agregan los scripts ejemplo
+<script> src="{{uro('bower/components/riot/riot.min.js')}}" </script>
+<script> src="{{uro('bower/components/riot/riot-compiler.min.js')}}" </script>
+
+se agregaron los 2 archivos de la carpeta bower_components
+
+revisar si estan instalados los archivos.
+
+luego en el mismo archivo app.blade 
+agregar el @yield('bottom') para que aparezca apartir de este nivel el javascript.
+
+Ahora vamos agregar una carpeta dentro de public, esta se va llamar components  esta va contener todos los componentes que vallamos a crear,
+crear un archivo que se llama invoice.tag,
+
+dentro del archivo crear las etiquetas <invoice></invoice>, dentro de ellas realizar
+el layouts que me mostrara las vistas del add, ver el maquetado del archivo invoice.tag
+
+revisar como esta compuesto el archivo invoive.tag
+dentro de este archivo hacer:
+
+ingresar la etiqueta <invoice></invoice> en la parte que queramos de la pagina allí es donde va aparecer el componente que es el invoice.tag
+
+Lo agregamos tambien con el siguiente codigo
+<script src"{{asset('components/invoice.tag')}}" type="riot/tag"></script>
+<script> 
+$(document).ready(function(){
+riot.mount('invoice');
+})
+</script>
+
+ 
+
+
+
 video3
 video4
 video5
 video6
 video7
 video8
+
