@@ -23,6 +23,9 @@ Base de datos: Mysql, Sqlite, Sql server.
 Frameworks php: Yii1,Yii2 Laravel.
 
 
+
+
+
 experiencia laboral
 maquetador web 
 4 meses tgv soporte técnico.
@@ -30,3 +33,12 @@ maquetador web
 https://www.youtube.com/watch?v=ouGLJSDGQsk&index=1&list=PLjQ5ns7ugQsk4UneguQyAGF4JTauFLMgU security
 
 https://www.youtube.com/watch?v=zV_u1KY4DoY&list=PLdtRZtGMukf7RFg0Dhdz9sexeruy-55ly
+
+
+
+Cosas que estoy aprendiendo
+NodeJs
+Mongodb
+
+
+

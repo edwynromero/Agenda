@@ -1,1 +1,39 @@
 Curso de NodeJs de parte de codigo facilito.
+
+Parte 1
+
+NodeJs es una plataforma que se usa principalmente para desarrollar aplicaciones web utilizando js en el servidor.
+
+Es un entorno de desarrollo que sacó javascript del navegador.
+
+Porque utilizar Node?
+
+Es rapido, corre en el motor v8 de google.
+
+Está construido para funcionar de manera asincrona.
+
+Es una excelente opción para aplicaciones en tiempo real.
+
+Funciona muy bien con bases de datos no relacionadas.
+
+
+El mismo lenguaje en todo el stack.
+
+Comunidad activa.
+
+
+
+Quienes usan NodeJs?
+
+Uber, Netflix, wikipedia, trello, flipboard, product hunt
+
+
+
+Version para el curso 5.3.0
+
+meterme en la pagina y descargarla
+
+
+
+
+
