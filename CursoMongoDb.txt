@@ -41,3 +41,9 @@ Cursores.
 Indices.
 Integración con un lenguaje de programación.
 
+
+Parte 2
+
+Instalar mongodb, ingresar en la pagina y darle en install en windows, esta empieza a descargarse.
+Aqui solo es instalar.
+
