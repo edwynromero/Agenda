@@ -45,6 +45,9 @@ Realizar el minitutorial de mongodb.
 Realizar el minitutorial de nodejs.
 Realizar el minitutorial de yii1 y yii2.
 Debo revisar trello para aprender a programar bien.
+Realizar todas las practicas de cisco y llevarlas al gns3.
+Buscar trabajo como programador desde aqui.
+
 
 
 
