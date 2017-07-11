@@ -47,7 +47,29 @@ Realizar el minitutorial de yii1 y yii2.
 Debo revisar trello para aprender a programar bien.
 Realizar todas las practicas de cisco y llevarlas al gns3.
 Buscar trabajo como programador desde aqui.
+recordame de cambiarle el idioma, la zona horaria y otra cosa que no recuerdo bien.
 
+instalar los linters en php y javascript
+aprender a programar en android
+ver un video de un curso nuevo luego de ver el otro 
+
+practicar bastante en javascript  y los demas ejercicios de tutorialesya.com.ar
+
+practicar bastante todo lo que tiene que ver con las vpns 
+
+hacer una miniprueba de lo que tiene que ver con los temarios de cisco, practicar bastante los ejercicios de cisco del modulo 4 
+
+
+buscar como realizar las plantillas basicos para cambiar lo de facturador lv para que no sea igual
+
+
+como crear mi propio framework en php y poderle hacer las inyecciones de dependencias en composer
+
+validar todos los datos del sistema
+
+Hacer un sistema con dataquerys 
+
+Buscar los trucos en el sublimetext 3 o en los otros.
 
 
 
