@@ -71,5 +71,5 @@ Hacer un sistema con dataquerys
 
 Buscar los trucos en el sublimetext 3 o en los otros.
 
-
+VER LA CONFIGURACION BIEN DEL GNS3 QUE TENGO EN LA CASA Y CONFIGURARLO CON EL DE AQUI Y VER LA VERSION CLARO.
 
