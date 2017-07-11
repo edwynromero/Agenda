@@ -1,1 +1,43 @@
 Curso de mongo db por parte de la gente de codigo facilito.
+
+
+Que es mongodb?
+Es un motor de base de datos nosql de codigo abierto, escrito en c++.
+
+Se encuentra orientada al almacenamiento de documentos.
+
+Es posible utilizarlo en windows y en unix.
+
+Caracteristicas.
+
+se almacenan documentos en colecciones.
+Facil cambio de schema en producción.
+Fácil escalabilidad de forma horizontal.
+Replicación de datos.
+Indexación.
+Almacenamiento de archivos.
+Es posible ejecutar JS en el servidor.
+
+
+Quienes lo utilizan?
+
+the guardian.
+CISCO.
+mtv. 
+the new york times.
+forbes.
+Nokia.
+Facebook.
+Entre otras.
+
+Que vamos a ver en el curso?
+Creación de documentos.
+Funcionamiento de MongoDB.
+Crud documentos.
+Sentencias comunes.
+Embeber documentos.
+Arreglos.
+Cursores.
+Indices.
+Integración con un lenguaje de programación.
+
