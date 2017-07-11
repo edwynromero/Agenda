@@ -1,20 +1,5 @@
 video1
 
-como se crea un proyecto laravel?
-entrar al cmd y colocar lararavel new nombre del proyecto
-
-como se instala la herramienta de autenticacion?
-php artisan make:auth //este agrega bootstrap al proyecto y lo demas, agrega un par de vistas.
-
-se crea la base de datos
-
-Luego en el archivo .env
-se coloca el nombre de la base de datos, el usuario y la clave.
-
-Asi se ingresa al sistema
-localhost:8000
-
-como se corren las migraciones?
 
 
 

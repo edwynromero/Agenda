@@ -40,3 +40,4 @@ Hacer un sistema con carrito de compra.
 Hacer un sistema que retire dinero.
 Como Desarrollar un ApiRestFull con nodejs y mongo db.
 instalar laravel en wampp directamente.
+Practicar todos los dias los cursos de tutorialesya.com.ar
