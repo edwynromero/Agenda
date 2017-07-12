@@ -88,3 +88,6 @@ Como crear un sistema contable para hlboulton?
 bajar la base de datos para el sistema contable https://softwarepronews.blogspot.com/p/codigo-fuente-sistema-contable.html
 
 http://www.lawebdelprogramador.com/codigo/PHP/index6.html
+
+
+http://evilnapsis.com/2015/05/16/sistema-bibliotecario-library/ ojo ver los sistemas aqui esta el de control de asistencias.
