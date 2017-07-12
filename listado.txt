@@ -83,3 +83,6 @@ Como instalar el mongodb en windows 8: https://www.youtube.com/watch?v=81zLSF4yp
 
 Hacer un curso donde pueda ver angular con mysql.
 
+Como crear un sistema contable para hlboulton?
+
+bajar la base de datos para el sistema contable https://softwarepronews.blogspot.com/p/codigo-fuente-sistema-contable.html
