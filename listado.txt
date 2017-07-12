@@ -86,3 +86,5 @@ Hacer un curso donde pueda ver angular con mysql.
 Como crear un sistema contable para hlboulton?
 
 bajar la base de datos para el sistema contable https://softwarepronews.blogspot.com/p/codigo-fuente-sistema-contable.html
+
+http://www.lawebdelprogramador.com/codigo/PHP/index6.html
