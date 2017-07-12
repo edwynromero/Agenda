@@ -1,1 +1,28 @@
 Curso de angular desde codigo facilito.
+
+Primera parte.
+
+Angular es un framework mvw para frontend.
+Bajar el primer video como audio.
+
+Segunda parte.
+Como instalar angular?
+Hay varias formas:
+en la consola con el comando:npm install angular@1.6.5
+
+ Descargandolo ó Copiando el link de internet y colocandolo en  la pagina del script.
+ 
+ 
+ Se coloca una directiva en el html:
+ ejemplo:
+ 
+ <!DOCTYPE html>
+<html ng-app> directiva
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+{{"Hola" + "Mundo"}}	como se maneja angular.
+</body>
+</html>

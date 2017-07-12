@@ -38,7 +38,8 @@ https://www.youtube.com/watch?v=zV_u1KY4DoY&list=PLdtRZtGMukf7RFg0Dhdz9sexeruy-5
 
 Cosas que estoy aprendiendo
 NodeJs
-Mongodb
+Mongodb X
+Angular
 
 
 
