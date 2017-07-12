@@ -76,3 +76,6 @@ VER LA CONFIGURACION BIEN DEL GNS3 QUE TENGO EN LA CASA Y CONFIGURARLO CON EL DE
 Revisar siempre la pagina de wikihow para realizar los tutoriales.
 
 Buscar la curso de programacion en batch.
+
+
+Como instalar el mongodb en windows 8: https://www.youtube.com/watch?v=81zLSF4ypU0
