@@ -73,3 +73,4 @@ Buscar los trucos en el sublimetext 3 o en los otros.
 
 VER LA CONFIGURACION BIEN DEL GNS3 QUE TENGO EN LA CASA Y CONFIGURARLO CON EL DE AQUI Y VER LA VERSION CLARO.
 
+Revisar siempre la pagina de wikihow para realizar los tutoriales.
