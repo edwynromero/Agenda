@@ -20,5 +20,60 @@ COPY CON archivo1.txt: para crear un archivo y editarlo en el cmd.
 
 
 
+COMANDOS DE SHUTDOWN
+
+Cómo usar el comando shutdown en Windows
+Shutdown, ingresado desde una línea de comando se caracteriza por ofrecer varias opciones de apagado que no están disponibles todas ellas para Windows. Este comando ejecutable es externo y permite reiniciar o apagar una computadora local o remota. Está disponible para Windows XP, Vista 7 y 8. Como todo comando de Windows se compone del nombre del comando, más una sintaxis donde se escribirán los parámetros para luego entonces ejecutar. Este comando puede beneficiar al usuario si lo usa adecuadamente. ¿Quieres aprender a usar el comando Shutdown en Windows? Este procedimiento está dirigido a los usuarios que desean reiniciar, cerrar sesión, apagar el computador, anular el apagado del computador, insertar un comentario mientras se apaga el computador, forzar el cierre del mismo y establecer un tiempo mínimo de apagado. A continuación describiremos los pasos a seguir para que puedas escribir una línea de comando y en ella ingresarlo junto con su sintaxis. Posteriormente analizaremos cada parámetro y su resultado.
+Pasos
+
+Se desplegará una terminal o consola donde podrás ejecutar el comando Shutdown. Presiona la tecla Enter. De esta forma obtendrás la descripción de todos los parámetros disponibles para el comando Shutdown. Luego te posicionas al final de la ayuda para ingresar el siguiente parámetro.
+Imagen titulada 3 1.png3
+Ingresa a continuación el comando Shutdown, luego un espacio y después /?. Al finalizar presiona la tecla Enter.
+Observarás que se despliega lo mismo que en el paso anterior. Es decir, se muestra la ayuda y es lo mismo que no especificar ninguna opción. Posiciónate al final de la ayuda para ingresar el próximo parámetro.
+
+Ingresa el comando Shutdown con el parámetro –i. Presiona la tecla Enter. Este sirve para mostrar la interfaz gráfica de usuario <GUI>.
+Observarás que se despliega un diálogo de apagado remoto. Podrás agregar si lo deseas nombres de equipos o también servicios de dominio del Active Directory. Podrás seleccionar la acción que deseas entre Apagar, Reiniciar y Comentar apagado inesperado. Selecciona si quieres o no advertir y su conteo regresivo. Finalmente, selecciona la razón por la cual se apagará el equipo y un comentario adicional. Cuando termines de configurar haz clic en el botón Aceptar.
+
+Ingresa el comando Shutdown con el parámetro –l. Presiona la tecla Enter. Este sirve para cerrar la sesión. No se puede utilizar con las opciones /m o /d.
+Observarás que se cerrará la sesión inmediatamente, siendo posible que fuerces el cerrado de aplicaciones antes de que ocurra el cierre de sesión.
+
+
+Ingresa el comando Shutdown con el parámetro –s. Presiona la tecla Enter. Este sirve para apagar el equipo.
+Observarás que se muestra un mensaje de advertencia que cerrará la sesión y procederá automáticamente a apagar el equipo.
+
+
+Ingresa el comando Shutdown con el parámetro –r. Presiona la tecla Enter. Este sirve para cerrar sesión y reiniciar el equipo.
+Observarás una doble ventana ensimismada de mensaje de advertencia. Se procederá a cerrar la sesión y el reinicio del equipo automáticamente.
+
+
+Ingresa el comando Shutdown con el parámetro –g. Presiona la tecla Enter. Este sirve para cerrar sesión y reiniciar el equipo. Una vez reiniciado se reinician las aplicaciones registradas.
+Observarás que se muestra un mensaje de advertencia que cerrará la sesión y procederá automáticamente a reiniciar el equipo. Se abrirán las aplicaciones que se habían cerrado en el momento de ejecutar el comando.
+
+
+Ingresa el comando Shutdown con el parámetro –a. Presiona la tecla Enter. Este sirve para anular el apagado del sistema. Para lograr resultados, se debería de estar apagando el sistema.
+
+Ingresa el comando Shutdown con el parámetro –p. Presiona la tecla Enter. Este sirve para apagar el equipo local sin tiempos de espera ni advertencia. Se puede usar con las opciones /d y /f.
+
+Ingresa el comando Shutdown con el parámetro –h. Presiona la tecla Enter. Este sirve para hibernar el equipo local.
+Observarás que la opción Hibernar es ejecutada desde línea de comando. Se procederá a hibernar el equipo.
+
+Ingresa el comando Shutdown con el parámetro –e. Presiona la tecla Enter. Este sirve para documentar la razón del cierre inesperado de un equipo.
+Observarás que se despliegan todas las razones existentes del equipo local.
+
+Ingresa el comando Shutdown con el parámetro –t \\nombre del equipo. Presiona la tecla Enter. Este sirve para especificar el equipo de destino que será5 apagado y puede ser el equipo local o en red local.
+
+Ingresa el comando Shutdown con el parámetro –t xxx. Siendo x los segundos de tiempo de espera para ser apagado el equipo local.
+
+Ingresa el comando Shutdown con el parámetro –c. Este sirve para ingresar el comentario acerca de la razón del reinicio o apagado.
+
+Ingresa el comando Shutdown con el parámetro –f. Este sirve para forzar el cierre de las aplicaciones sin advertir previamente a los usuarios.
+
+Ingresa el comando Shutdown con el parámetro –d. Este sirve para proporcionar la razón del reinicio o el cierre.
+Consejos
+Utiliza este código en el sistema operativo de Windows.
+Advertencias
+Tienes que guardar todos los documentos antes de realizar estas operaciones, de lo contrario existe el riesgo de que pierdas toda la información no guardada al iniciar el apagado forzado.
+El comando "Shutdown" solo funciona si tienes privilegios de administración en el computador que deseas apagar.
+
 
 
