@@ -115,6 +115,238 @@ riot.mount('invoice');
 video3
 video4
 video5
+video 5
+
+componente invoice.tag
+pasar la variable self al controlador
+crear una funcion riot llamada 
+
+__save(){
+}
+crear el boton que se encargue de guardar onclick q llame al save.
+
+probarlo, tiene que dar todo los campos en el depurador del navegador.
+
+proximo paso seguir trabajando con la funcion riot para el metodo __save
+
+__save(){
+$.post(baseUrl('invoice/save'), {
+client_id: self.client_id,
+iva:self.iva,
+subTotal:self.subTotal,
+total:self.total
+detail:self.detail
+}, funtion(r){
+
+}, 'json')
+}
+
+no va  a registrar todavia  pero ver lo que pasa por el depurador.
+
+
+crear la ruta en el archivo route
+
+Route::post('invoice/save','InvoiceController@save');
+
+Ahora nos dirijimos al InvoiceController, para capturar los valores del js.
+
+
+public function save(Request $req)
+{
+$data= (object) [ 
+'iva' => $req->input('iva'),
+'subTotal' => $req->input('subTotal'),
+'total' => $req->input('total'),
+'client_id' => $req->input('client_id'),
+'detail'  =>  $req->input('detail')
+];
+
+return $data;
+
+}
+
+crear el archivo ini.js
+para inicializar el ajax en laravel:
+
+ahora colocar el token
+en el archivo app.blade 
+colocar el meta
+y abajo en los script colocar la ruta del ini.js
+
+ahora si va agregar las peticiones con el token.
+
+le hacemos un var_dump($data); para probar.
+
+
+
+crear el InvoiceRepository
+
+namespace App\Repositories;
+
+use App\invoice;
+
+class InvoiceRepository{
+private $model;
+
+public function __construct(){
+	$this->model = new Invoice();
+}
+public funtion save($q) {
+	return $this->model->where('name','like',"%$q%")
+	->get();
+
+ }
+
+}
+
+crear el model InvoiceItem
+
+
+class InvoiceItem extends Model{
+
+}
+
+
+crear la relacion en Invoice
+
+class Invoice extends Model{
+public funtion detail(){
+
+	return $this->hasMany('App\InvoiceItem');
+}
+}
+
+vamos al InvoiceRepository
+
+
+namespace App\Repositories;
+
+use App\invoice;
+
+class InvoiceRepository{
+private $model;
+
+public function __construct(){
+	$this->model = new Invoice();
+}
+public funtion save($q) {
+
+$this->model->iva = $data->iva;
+$this->model->subTotal = $data->subTotal;
+$this->model->total = $data->total;
+$this->model->client_id = $data->client_id;
+$this->model->detail = $data->detail;
+
+$this->save();
+
+$this->model->detail()->saveMany([
+new App\Commnent(['message'=>'A new comment']),
+new App\Commnent(['message'=>'Another comment']),
+]);
+ }
+
+}
+
+
+
+luego vamos al InvoiceController
+
+
+public function save(Request $req)
+{
+$data= (object) [ 
+'iva' => $req->input('iva'),
+'subTotal' => $req->input('subTotal'),
+'total' => $req->input('total'),
+'client_id' => $req->input('client_id'),
+'detail'  => []
+];
+foreach($req->input('detail') as d) {
+$d->detail[] = {
+'product_id' => $d->id,
+'quantity' => $d->quantity,
+'unitPrice' => $d->unitPrice,
+'total' => $d->total
+
+};
+}
+
+}
+
+Ahora vamos al InvoiceRepository
+
+class InvoiceRepository{
+private $model;
+
+public function __construct(){
+	$this->model = new Invoice();
+}
+public funtion save($q) {
+$return = (object)[
+	'response' => false
+];
+
+$this->model->iva = $data->iva;
+$this->model->subTotal = $data->subTotal;
+$this->model->total = $data->total;
+$this->model->client_id = $data->client_id;
+$this->model->detail = $data->detail;
+
+$this->model->save();
+foreach($data->detail as $d){
+$obj = new InvoiceItem;
+$obj->product_id = $d->product_id;
+$obj->quantity = $d->quantity;
+$obj->UnitPrice = $d->unitPrice;
+$obj->total = $d->total;
+
+$detail[] = $obj;
+}
+
+$this->model->detail()->saveMany(
+$detail);
+$return->response = true;
+
+return $return;
+ }
+
+}
+
+Luego vamos al InvoiceController y agregar la variable.
+InvoiceRepository a todo lo que tenga que ver con el.
+
+
+en el InvoiceController 
+
+public function save(Request $req)
+{
+$data= (object) [ 
+'iva' => $req->input('iva'),
+'subTotal' => $req->input('subTotal'),
+'total' => $req->input('total'),
+'client_id' => $req->input('client_id'),
+'detail'  => []
+];
+foreach($req->input('detail') as d) {
+$data->detail[] = (object){
+'product_id' => $d['id'],
+'quantity' => $d['quantity'],
+'unitPrice' => $d['price'],
+'total' => $d['total']
+
+};
+}
+$this->invoiceRepo->save($data);
+}
+
+agregar el namespace 
+
+hasta aqui ya inserta
+
+
+ahora hay que realizar la transaccion
+apartir del minuto 32
+
 video6
 video7
 video8
