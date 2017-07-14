@@ -114,3 +114,6 @@ https://www.youtube.com/watch?v=Mu_5OA5v2Zc sistemas completos, revisar las base
 
 https://www.youtube.com/watch?v=AnWZ2lIWdjo Ver como se hace carro de compra.
 
+
+http://www.lawebdelprogramador.com/codigo/PHP/3246-Library-Sistema-Bibliotecario-con-PHP-MySQL-y-Bootstrap-3.html Codigos de sistemas muy buenos, se pueden bajar las bases de datos para hacerlos en varios lenguajes.
+
