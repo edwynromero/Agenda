@@ -371,6 +371,25 @@ return view(
 
 ahora ir a la vista 
 
+quitamos el foreach que esta en el index
+
+colocamos el nuevo foreach
+
+@foreach ($model as m)
+esto lo veo luego es algo asi
+donde va el  {{number_format($m->iva, 2)}}
+{{number_format($m->subTotal, 2)}}
+{{number_format($m->total, 2)}}
+@endforeach
+
+ahora vamos al modelo invoice para crear la relacion 
+
+public function client(){
+return $this->belonsTo('App\InvoiceItem');
+}
+
+
+
 
 video7
 video8
