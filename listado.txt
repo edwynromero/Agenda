@@ -108,3 +108,9 @@ servidor de  json para crear un apirest https://www.youtube.com/watch?v=Z6FH1vGn
 
 
 Pendiente en realizar los sistemas de hlboulton.
+
+
+https://www.youtube.com/watch?v=Mu_5OA5v2Zc sistemas completos, revisar las bases de datos.
+
+https://www.youtube.com/watch?v=AnWZ2lIWdjo Ver como se hace carro de compra.
+
