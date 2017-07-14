@@ -385,8 +385,14 @@ donde va el  {{number_format($m->iva, 2)}}
 ahora vamos al modelo invoice para crear la relacion 
 
 public function client(){
-return $this->belonsTo('App\InvoiceItem');
+return $this->belonsTo('App\Client');
 }
+
+luego colocamos 
+donde decia cliente en el index lo siguiente:
+
+<a href="{{url('invoice/detail' . $m->id)}}">{{ $m->client->name}}"</a>
+listo hasta aqui.
 
 
 
