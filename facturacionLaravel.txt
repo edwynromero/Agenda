@@ -348,6 +348,30 @@ ahora hay que realizar la transaccion
 apartir del minuto 32
 
 video6
+comenzamos validando el botom de guardar que esta en invoice tag
+button if={detail.length > 0 && client_id >0} onclick ={__save} + bootstrap
+
+hacer el listado
+invoice repository
+
+public function getAll(){
+ return $this->model->get();
+}
+
+
+ahora vamos al invoicecontroller
+
+public function index(){
+return view( 
+'invoice.index', [
+		'model' => $this->invoiceRepo->getAll()
+]
+);
+}
+
+ahora ir a la vista 
+
+
 video7
 video8
 
