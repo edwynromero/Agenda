@@ -122,3 +122,8 @@ http://www.lawebdelprogramador.com/codigo/PHP/3246-Library-Sistema-Bibliotecario
 https://styde.net/blog/page/4/ buscar en esta pagina tutoriales de laravel son muy buenos ojo.
 
 https://www.youtube.com/watch?v=EWSSxd0Cb1o&t=40s ver como se crea un crud en laravel.
+
+
+curso de gestion de incidencias en laravel https://www.youtube.com/watch?v=0iqYkOy4ups&list=PLzSFZWTjelbJTgPatTzeF1fvoMsqawntG
+
+https://www.youtube.com/watch?v=EWSSxd0Cb1o&list=PLzSFZWTjelbIi1UJ3WZZK8vVzgmhjAq25 curso completo de laravel basico
