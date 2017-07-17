@@ -402,3 +402,59 @@ video7
 
 video8
 
+video 7
+vamos al archivo routes.php y creamos una ruta.
+Route::get('/invoice/detail/{$id}', 'InvoiceController@detail');
+
+Luego vamos al invoicecontroller
+creamos el metodo detail
+
+public function detail($id)
+{
+	return view('invoice.detail');
+}
+
+Ahora vamos para crear la vista
+detail.blade.php
+
+copiar todo lo del invoice.tag
+lo adaptamos a nuestro proyecto
+
+copiar el que esta terminado
+
+Luego en invoiceRepository
+hacer el metodo get
+
+ahora al invoice controller
+en el metodo detail hacer un array
+
+Luego ir a la vista y copiar el contador para los comprobantes
+
+Luego ir rellenando los campos.
+
+Luego ir al invoice repository y agregarle al metodo get all el order_by 
+Listo.
+
+
+
+
+
+
+
+
+
+video 8
+
+laravel dompdf descargar
+vamos a config app.php
+agregamos una lineas.
+
+
+creamos una nueva ruta
+Route::get('/invoice/pdf/{$id}', 'InvoiceController@pdf');
+
+vamos a invoice controller y creamos el metodo pdf
+
+vamos al index y creamos el botom descargar 
+
+
