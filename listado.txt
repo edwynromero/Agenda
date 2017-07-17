@@ -117,3 +117,8 @@ https://www.youtube.com/watch?v=AnWZ2lIWdjo Ver como se hace carro de compra.
 
 http://www.lawebdelprogramador.com/codigo/PHP/3246-Library-Sistema-Bibliotecario-con-PHP-MySQL-y-Bootstrap-3.html Codigos de sistemas muy buenos, se pueden bajar las bases de datos para hacerlos en varios lenguajes.
 
+
+
+https://styde.net/blog/page/4/ buscar en esta pagina tutoriales de laravel son muy buenos ojo.
+
+https://www.youtube.com/watch?v=EWSSxd0Cb1o&t=40s ver como se crea un crud en laravel.
