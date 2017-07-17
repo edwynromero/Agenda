@@ -435,14 +435,6 @@ Luego ir rellenando los campos.
 Luego ir al invoice repository y agregarle al metodo get all el order_by 
 Listo.
 
-
-
-
-
-
-
-
-
 video 8
 
 laravel dompdf descargar
@@ -455,6 +447,18 @@ Route::get('/invoice/pdf/{$id}', 'InvoiceController@pdf');
 
 vamos a invoice controller y creamos el metodo pdf
 
-vamos al index y creamos el botom descargar 
+
+vamos al index y creamos el botom descargar le pasamos parametros.
+
+Luego  nos metemos en el metodo pdf copiamos lo que sale en la documentacion y lo probamos.
+
+Luego agregamos el namespace de pdf en el invoiceController
+
+
+creamos la vista pdf.
+
+luego arreglar el invoicecontroller el metodo pdf
+
+
 
 
