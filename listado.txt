@@ -135,3 +135,6 @@ http://www.alejandropinto.com/plataformas-cursos-gratuitos-espanol/ plataformas 
 
 
 https://www.youtube.com/user/ProgramandoBrothers/playlists para realizar dataquerys y json.
+
+
+https://www.w3schools.com/js/js_json_intro.asp pagina de w3schools.com para hacer los tutoriales de programación web.
