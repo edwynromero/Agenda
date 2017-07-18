@@ -132,3 +132,6 @@ canal con muchos tutoriales de laravel https://www.youtube.com/channel/UCIurElE6
 
 
 http://www.alejandropinto.com/plataformas-cursos-gratuitos-espanol/ plataformas donde puedo conseguir cursos gratis.
+
+
+https://www.youtube.com/user/ProgramandoBrothers/playlists para realizar dataquerys y json.

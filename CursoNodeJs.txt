@@ -33,7 +33,12 @@ Version para el curso 5.3.0
 
 meterme en la pagina y descargarla
 
+darle a todo install y siguiente.
+
+codepicnic: por si no se puede instalar, trabajar con la consola que se encuentra en esta pagina.
 
 
+parte 2
 
+Crearemos un servidor local, 
 
