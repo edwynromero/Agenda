@@ -129,3 +129,6 @@ curso de gestion de incidencias en laravel https://www.youtube.com/watch?v=0iqYk
 https://www.youtube.com/watch?v=EWSSxd0Cb1o&list=PLzSFZWTjelbIi1UJ3WZZK8vVzgmhjAq25 curso completo de laravel basico
 
 canal con muchos tutoriales de laravel https://www.youtube.com/channel/UCIurElE67dCV_Ot8YfQtpBA
+
+
+http://www.alejandropinto.com/plataformas-cursos-gratuitos-espanol/ plataformas donde puedo conseguir cursos gratis.
