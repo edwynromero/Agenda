@@ -140,3 +140,5 @@ https://www.youtube.com/user/ProgramandoBrothers/playlists para realizar dataque
 https://www.w3schools.com/js/js_json_intro.asp pagina de w3schools.com para hacer los tutoriales de programación web.
 
 https://www.youtube.com/channel/UC60KKQRVWFY7ec_-1jTLflg/playlists  canal de youtube sobre el curso de json
+
+hacerle trabajo de depuracion al sistema de igacloud y buscar un depurador de codigo.
