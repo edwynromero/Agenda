@@ -531,8 +531,12 @@ Listo.
 video 8
 
 laravel dompdf descargar
+
 vamos a config app.php
-agregamos una lineas.
+agregamos el proveedor.
+
+luego agregamos la clase.
+
 
 
 creamos una nueva ruta
@@ -542,6 +546,8 @@ vamos a invoice controller y creamos el metodo pdf
 
 
 vamos al index y creamos el botom descargar le pasamos parametros.
+
+
 
 Luego  nos metemos en el metodo pdf copiamos lo que sale en la documentacion y lo probamos.
 
