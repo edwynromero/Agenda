@@ -558,6 +558,18 @@ creamos la vista pdf.
 
 luego arreglar el invoicecontroller el metodo pdf
 
+hacer un ejercicio de javascript.
+luego hacer uno de cisco packect tracer.
+luego hacer uno de laravel.
+realizar una base de datos de todos los sistemas en laravel.
+
+ver slack y ver trello
+
+https://styde.net/category/laravel-5-4/page/3/
+
+https://tutorials.kode-blog.com/laravel-install-and-configure
+
+
 
 
 
