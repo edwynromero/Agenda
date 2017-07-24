@@ -163,4 +163,6 @@ https://www.youtube.com/watch?v=AiEhC2AluJ4&list=PLhCiuvlix-rTH5idwru7vKkPAmVODY
 
 https://www.youtube.com/watch?v=6Cvck6O1me0&list=PLEtcGQaT56cgMsG-eOksskBHIb9Rq4VUG crear api rest
 
+https://www.youtube.com/watch?v=TnZbF4bPnWc&list=PLDFUmVfnJHdvoUEkempJSgg_qLtDRbP69 apirestfull
+
 http://develoteca.com/disenos-de-administrativos-web-gratis-para-tus-aplicaciones-web/ plantillas administrativas
