@@ -142,3 +142,25 @@ https://www.w3schools.com/js/js_json_intro.asp pagina de w3schools.com para hace
 https://www.youtube.com/channel/UC60KKQRVWFY7ec_-1jTLflg/playlists  canal de youtube sobre el curso de json
 
 hacerle trabajo de depuracion al sistema de igacloud y buscar un depurador de codigo.
+
+https://www.youtube.com/watch?v=XrrbV5YO2PY&list=PLKFEl7c-Y5hVtezgEC8gpKEWD0lh3lOe4 clon de redit laravel
+
+https://www.youtube.com/watch?v=togIjDT95wo&list=PLIddmSRJEJ0u-5Nv2k6W8Vhe0wUP_7H5W curso de laravel tienda de videos
+
+
+https://www.youtube.com/watch?v=kSE7HxAqv2M&list=PLQBgUBB0BE1U7xpHOuzZPT0nmCdmUU8ka minicurso de laravel
+
+https://www.youtube.com/watch?v=_r-dfKWSmJc&list=PLIddmSRJEJ0vjjv9itX0kfS5AjA5To6mg app en angular y laravel
+
+https://www.youtube.com/watch?v=vUfNCDtntSE&list=PLeqLzs3KBc01GuM8vsfIJot37AyaVbdT_ laravel4
+
+https://www.youtube.com/watch?v=pJE-Aqy9xhw&list=PLQCgNGUqLK4kHUPKZ6q9YZN9Sq__Lt7H5 laravel 4 otro
+
+
+https://www.youtube.com/watch?v=4T-2KCeqiaQ&list=PLjARR1053fYm331JOperJXl2b5B5L3cAG&index=13 laravel 4 otro mas
+
+https://www.youtube.com/watch?v=AiEhC2AluJ4&list=PLhCiuvlix-rTH5idwru7vKkPAmVODYJJB crud laravel 5.4
+
+https://www.youtube.com/watch?v=6Cvck6O1me0&list=PLEtcGQaT56cgMsG-eOksskBHIb9Rq4VUG crear api rest
+
+http://develoteca.com/disenos-de-administrativos-web-gratis-para-tus-aplicaciones-web/ plantillas administrativas
